@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wesh, tu veux un kebab ?</title>
+</head>
+<body>
+<div>
+  <input type="text" ng-model="ville">
+  <button ng-click="findKebab(ville)">Liste moi les kebabs de cette ville</button>
+</div>
+<div ng-repeat="kebab in kebabs">
+  {{kebab.nom}} {{kebab.adresse}}
+</div>
+</body>
+</html>
