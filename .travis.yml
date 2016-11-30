@@ -1,0 +1,5 @@
+language: nodejs
+nodejs:
+  - "0.10"
+before_script:
+  - npm install grunt-cli -g
