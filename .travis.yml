@@ -2,7 +2,7 @@ language: nodejs
 nodejs:
   - "0.10"
 before_script:
-  - npm install --save --save-exact grunt grunt-cli grunt-serve
+  - npm install --save --save-exact grunt grunt-cli grunt-serve time-grunt
 install: true
 script:
   - npm install
