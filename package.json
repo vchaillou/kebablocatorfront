@@ -35,5 +35,9 @@
   "scripts": {
     "test": "grunt test",
     "start": "grunt serve"
+  },
+  "dependencies": {
+    "grunt": "0.4.5",
+    "grunt-cli": "1.2.0"
   }
 }
