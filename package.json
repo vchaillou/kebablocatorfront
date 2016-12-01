@@ -34,7 +34,7 @@
   },
   "scripts": {
     "test": "grunt test",
-    "start": "grunt serve"
+    "start": "bower install && grunt serve"
   },
   "dependencies": {
     "autoprefixer-core": "^5.2.1",
