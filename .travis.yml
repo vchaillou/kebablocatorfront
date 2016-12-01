@@ -6,7 +6,7 @@ before_script:
   - npm install --save --save-exact bower
 script:
   - npm install
-  - bower install
+  - bower install -f
 deploy:
   provider: heroku
   api-key:
