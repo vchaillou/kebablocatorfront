@@ -4,6 +4,7 @@ nodejs:
 install: true
 script:
   - npm install
+  - bower install
 deploy:
   provider: heroku
   api-key:
