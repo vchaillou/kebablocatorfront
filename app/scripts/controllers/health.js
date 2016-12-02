@@ -9,7 +9,7 @@
  */
 angular.module('kebablocatorfrontApp')
   .controller('HealthCtrl', function ($http, $scope) {
-    $http.get("http://localhost:8090/health").success(function(data) {
+    $http.get("https://kebablocatorback.herokuapp.com/health").success(function(data) {
         $scope.health = data;
         console.log(data);
       })
