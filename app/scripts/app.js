@@ -44,6 +44,11 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/health', {
+        templateUrl: 'views/health.html',
+        controller: 'HealthCtrl',
+        controllerAs: 'health'
+      })
       .otherwise({
         redirectTo: '/'
       });
